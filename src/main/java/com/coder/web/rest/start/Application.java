@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = { "com.coder.web.rest.controller" })
+@ComponentScan(basePackages = { "com.coder.web.rest.*" })
 public class Application {
 
 	public static void main(String[] args) {
