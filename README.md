@@ -1,7 +1,7 @@
 # Spring-boot-data-jpa-rest-api example
 <h3> In this repository I will create simple spring-boot-jpa-restful api and for testing it I used Apache Derby embedded database.</h3>
 <p> I saw in some tutorials they not adding any annotation on <code>ApplicationStart.class</code> but for me not worked so we have to add some annotations to our start class to say to Spring <qoute>Hey Spring we have Service classes and Controller classes located in '------' package</qoute></p>
-<p>Some thing like this : <br>
+<p>Some thing like this :</p> <br>
 <code>
 @SpringBootApplication
 @EntityScan(basePackages = "com.coder.web.rest.entity")
@@ -13,6 +13,5 @@ public class SpringBootRestfulJpaApplication {
 		SpringApplication.run(SpringBootRestfulJpaApplication.class, args);
 	}
 }
-
-</code></p>
-<address>NOTE : For making your api test you can use POSTMAN application as plugin on Chrome or as standalone application on your computer.</address>
+</code>
+<address>NOTE : For making your api test you can use <a href="https://www.getpostman.com/">POSTMAN</a> application as plugin on Chrome or as standalone application on your computer.</address>
